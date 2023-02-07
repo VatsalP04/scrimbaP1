@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div>
+                <h3>HOME</h3>
+                <div id="home-score">0</div>
+                
+                <div id="plus-one-point">
+                    <button class="text-button" onclick="homePlusOne()">+1</button>
+                </div>
+                
+                <div id="plus-two-point">
+                    <button class="text-button" onclick= "homePlusTwo()">+2</button>
+                </div>
+                
+                <div id="plus-three-point">
+                    <button  class="text-button" onclick= "homePlusThree()">+3</button>
+                </div>
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <div id="guest-score">0</div>
+                
+                <div id="gplus-one-point">
+                    <button class="text-button" onclick= "guestPlusOne()">+1</button>
+                </div> 
+                
+                <div id="gplus-two-point">
+                    <button class="text-button" onclick= "guestPlusTwo()">+2</button>
+                </div> 
+                
+                <div id="gplus-three-point">
+                    <button class="text-button" onclick= "guestPlusThree()">+3</button>
+                </div>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
